@@ -1,6 +1,5 @@
-function greeting(){
-    let name =prompt('Enther your name');
-    alert(`Hello, ${name}`);
+function greeting(name){
+        console.log(`Hello, ${name}`);
 }
 
-greeting();
+greeting(prompt('Enther your name'));
